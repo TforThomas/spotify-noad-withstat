@@ -8,3 +8,4 @@ payload:
 
 
 - PROCESS-NAME,rclone.exe
+- PROCESS-NAME,OneDrive.exe
