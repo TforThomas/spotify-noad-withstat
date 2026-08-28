@@ -12393,34 +12393,8 @@ const blacklist = [
               "value": true
             }
           },
-    {
-            "propertyId": {
-              "scope": "core-scrobble",
-              "name": "global_private_session_enabled"
-            },
-            "metadata": {
-              "policyId": "498992",
-              "externalRealm": "exp-planner",
-              "externalRealmId": "10000202"
-            },
-            "boolValue": {
-              "value": true
-            }
-          },
-    {
-            "propertyId": {
-              "scope": "ios-listening-activity",
-              "name": "listening_activity_enabled"
-            },
-            "metadata": {
-              "policyId": "522819",
-              "externalRealm": "exp-planner",
-              "externalRealmId": "10001086"
-            },
-            "boolValue": {
-              "value": true
-            }
-          },
+    // REMOVED for play-history restore: core-scrobble / global_private_session_enabled
+    // REMOVED for play-history restore: ios-listening-activity / listening_activity_enabled
     {
             "propertyId": {
               "scope": "ios-feature-contextualshuffle",
